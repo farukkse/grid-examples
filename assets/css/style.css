@@ -1,0 +1,26 @@
+body{
+    background-color: #D8D8D800;
+
+}
+
+header{
+    background-color: #FFC9BA;
+    padding: 27px 165px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.accountNavigationContainer{
+    margin-left: auto;
+}
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
