@@ -51,6 +51,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 35px;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -89,7 +90,30 @@ a{
     margin-left: 8px;
 
 }
+.socialLogos{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   gap: 60px;
+   align-items: center;
+   padding: 104px 165px;
+}
 
+.banners{
+    display: grid;
+    grid-template-columns: 637px auto;
+    gap: 24px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.bannerOne{
+    background-color: #E6F0FF;
+    border-radius: 6px;
+}
+.bannerTwo{
+    background-color: #FAFAFB;
+    border-radius: 6px;
+}
 
 
 /* 
