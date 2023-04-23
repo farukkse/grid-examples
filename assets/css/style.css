@@ -1,24 +1,96 @@
 body{
     background-color: #D8D8D800;
-
+    color: #212121;
 }
 
 header{
     background-color: #FFC9BA;
     padding: 27px 165px;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Montserrat', sans-serif;
+
 }
 
 p{
     font-family: 'Open Sans', sans-serif;
-    
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .navbar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 103px;
+}
+
+#search{
+     outline: none;
+    border: none;
+    border-bottom: 1px solid #212121;
+    background-image: url('/assets/img/svg/search-ico.svg');
+    background-position: 325px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding: 10px ;
+    color: #212121;
+    
 }
 .accountNavigationContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
     margin-left: auto;
 }
+
+.heroContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.heroContent{
+    padding-right: 160px;
+}
+.heroContent h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    margin-bottom: 16px;
+
+}
+.heroContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+#exploreCollection a {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+#exploreCollection a img{
+    display: inline-block;
+    margin-left: 8px;
+
+}
+
+
 
 /* 
 font-family: 'Montserrat', sans-serif;
