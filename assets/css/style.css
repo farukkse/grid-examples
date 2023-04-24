@@ -5,15 +5,34 @@ body{
 
 header{
     background-color: #FFC9BA;
-    padding: 27px 165px;
-    max-width: 1440px;
-    margin: 0 auto;
+    padding-top: 27px;
+    padding-bottom: 103px;
+   
     
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4{
 font-family: 'Montserrat', sans-serif;
 
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #212121;
+}
+h5{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    
 }
 
 p{
@@ -26,13 +45,18 @@ a{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 .navbar{
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 103px;
+}
+.headerContainer{
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
 #search{
@@ -60,9 +84,7 @@ a{
     grid-template-columns: 1fr 1fr;
     gap: 24px;
 }
-.heroContent{
-    padding-right: 160px;
-}
+
 .heroContent h1{
     font-size: 40px;
     font-weight: 600;
@@ -95,15 +117,20 @@ a{
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
    gap: 60px;
    align-items: center;
-   padding: 104px 165px;
+   padding-top: 103px;
+   padding-bottom: 56px;
 }
 
 .banners{
     display: grid;
     grid-template-columns: 637px auto;
     gap: 24px;
-    padding-left: 165px;
-    padding-right: 165px;
+    padding-top: 64px;
+    padding-bottom: 80px;
+    
+}
+.banners h3{
+    padding: 40px;
 }
 
 .bannerOne{
@@ -115,8 +142,79 @@ a{
     border-radius: 6px;
 }
 
+.featuredProductsSlider h3, .featuredProductsBanners h3{
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+.productsCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+.productCard{
+    background-color: #D8D8D800;
+}
+.productCard .productCardContent p,
+.latestArticlesCards .latestArticlesCard p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #807E7E;
+}
+.productCard .productCardContent span{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.bannersTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+}
+.bannersTwo .bannersTwoContent{
+    background-color: #FAFAFB;
+    padding: 128px 64px 211px 97px;
+}
+.bannersTwo .bannersTwoImage{
+    background-color: #ECF1F8;;
+}
+
+.featuredProductsBanners{
+    margin-bottom: 80px;
+}
+.featuredProductsBannersCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.latestArticlesCards
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.latestArticlesHeader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EAEAEA;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+}
+.latestArticlesHeader a{
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
 
 /* 
+
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
