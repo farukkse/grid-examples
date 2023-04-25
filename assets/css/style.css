@@ -43,7 +43,9 @@ a{
     text-decoration: none;
     color: #212121;
 }
-
+li{
+    list-style-type: none;
+}
 .container{
     max-width: 1110px;
     margin: 0 auto;
@@ -189,6 +191,10 @@ a{
     flex-wrap: wrap;
     gap: 24px;
 }
+
+.latestArticles{
+    margin-bottom: 80px;
+}
 .latestArticlesCards
 {
     display: grid;
@@ -211,8 +217,53 @@ a{
     line-height: 24px;
 }
 
+footer{
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 72px 0;
+}
 
+footer .footerContent{
+    width: 496px;
+}
+.footerContent p{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
+.footerCategories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footerCategory h5{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.footerCategory li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerBottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:24px 0 ;
+}
+.footerBottom .footerSocialIcons{
+    display: grid;
+    grid-template-columns: 24px 24px 24px 24px;
+    gap: 45px;
+}
+.footerBottom p{
+    margin-left: auto;
+}
 /* 
 
 font-family: 'Montserrat', sans-serif;
