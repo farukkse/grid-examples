@@ -264,8 +264,71 @@ footer .footerContent{
 .footerBottom p{
     margin-left: auto;
 }
-/* 
 
+@media screen and (max-width: 500px){
+   img{
+    max-width: 100%;
+   }
+    .headerContainer{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .user,.notification{
+        display: none;
+    }
+    .hamburgerMenu{
+        margin-left: auto;
+    }
+    .heroContainer{
+        display: block;
+    }
+    .heroContainer img{
+        max-width: 100%;
+    }
+    .heroContent{
+        margin-bottom: 20px;
+    }
+    .container{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .socialLogos{
+        grid-template-columns: 1fr 1fr;
+    }
+    .banners{
+        display: block;
+    }
+    .productsCards{
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+
+    }
+    .bannersTwo{
+        display: block;
+    }
+    .bannersTwoContent{
+        padding: auto;
+    }
+    .featuredProductsBanners{
+        display: none;
+    }
+    .latestArticlesCards{
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
+    .footerContent{
+        width: 0;
+    }
+    .footerCategories{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+}
+/*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
